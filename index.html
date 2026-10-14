@@ -9,24 +9,27 @@
 <meta name="robots" content="noindex, nofollow">
 <link rel="canonical" href="https://borthaburutoribio.github.io/julian-giron-website/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Lic. Julián Girón · Psicólogo">
-<meta property="og:description" content="Terapia presencial en Recoleta y online para adultos.">
-<meta name="theme-color" content="#2e3a64">
+<meta property="og:title" content="Lic. Julián Girón · Psicólogo en Recoleta y online">
+<meta property="og:description" content="Terapia para adultos en Juncal 2037 y por videollamada. Psicotécnicos, aptos y orientación vocacional.">
+<meta property="og:image" content="https://borthaburutoribio.github.io/julian-giron-website/assets/img/consultorio-dos-sillones-luz-natural.webp">
+<meta name="theme-color" content="#111f45">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
 <link rel="apple-touch-icon" href="assets/img/favicon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Lexend:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=1">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=2">
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Psychologist",
   "name": "Lic. Julián Girón · Psicólogo",
+  "image": "https://borthaburutoribio.github.io/julian-giron-website/assets/img/logo-julian-giron-cerebro-psi.png",
   "telephone": "+54 9 11 3181-8868",
   "url": "https://borthaburutoribio.github.io/julian-giron-website/",
   "address": {"@type": "PostalAddress", "streetAddress": "Juncal 2037", "postalCode": "C1116", "addressLocality": "Ciudad Autónoma de Buenos Aires", "addressRegion": "CABA", "addressCountry": "AR"},
+  "geo": {"@type": "GeoCoordinates", "latitude": -34.5931384, "longitude": -58.3963373},
   "openingHoursSpecification": [
     {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00"}
   ],
@@ -38,9 +41,9 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type": "Question", "name": "¿Atiende online?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, hay atención psicológica virtual para adultos, además del consultorio en Juncal 2037."}},
+    {"@type": "Question", "name": "¿Atiende online?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Hay atención por videollamada para adultos, además del consultorio en Juncal 2037, Recoleta."}},
     {"@type": "Question", "name": "¿Hace psicotécnicos y aptos psicológicos?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. El Lic. Girón tiene formación en selección de personal y hace psicotécnicos, aptos psicológicos y orientación vocacional."}},
-    {"@type": "Question", "name": "¿Cómo pido un turno?", "acceptedAnswer": {"@type": "Answer", "text": "Por WhatsApp al 11 3181-8868, de lunes a viernes de 9 a 18 h."}}
+    {"@type": "Question", "name": "¿Cómo pido la primera entrevista?", "acceptedAnswer": {"@type": "Answer", "text": "Desde esta página elegís el motivo, si preferís consultorio u online y el día; se arma el mensaje y lo mandás por WhatsApp al 11 3181-8868. Atención de lunes a viernes de 9 a 18 h."}}
   ]
 }
 </script>
@@ -48,15 +51,26 @@
 <body>
 <a class="skip" href="#contenido">Saltar al contenido</a>
 
-<header class="top">
+<div class="topbar">
+  <div class="wrap topbar__in">
+    <span>Juncal 2037, Recoleta · y online</span>
+    <span class="topbar__right">Lunes a viernes, 9 a 18 h · <a href="https://wa.me/5491131818868" target="_blank" rel="noopener">11 3181-8868</a></span>
+  </div>
+</div>
+
+<header class="top" id="top">
   <div class="wrap top__in">
-    <a class="brand" href="#contenido"><span class="brand__name">Lic. Julián Girón</span><span class="brand__sub">Psicólogo · UADE</span></a>
+    <a class="brand" href="#contenido" aria-label="Lic. Julián Girón, inicio">
+      <img class="brand__logo" src="assets/img/logo-julian-giron-cerebro-psi.png" alt="" width="44" height="44">
+      <span class="brand__txt"><span class="brand__name">Lic. Julián Girón</span><span class="brand__sub">Psicólogo · UADE</span></span>
+    </a>
     <nav class="nav" id="nav" aria-label="Secciones">
       <a href="#terapia">Terapia</a>
       <a href="#evaluaciones">Evaluaciones</a>
-      <a href="#como">Cómo es</a>
+      <a href="#primera-entrevista">Primera entrevista</a>
       <a href="#opiniones">Opiniones</a>
       <a href="#contacto">Contacto</a>
+      <a class="nav__cta" href="#primera-entrevista">Pedir turno</a>
     </nav>
     <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú"><span></span><span></span></button>
   </div>
@@ -65,13 +79,35 @@
 <main id="contenido">
 
 <section class="hero">
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow">Psicólogo en Recoleta y online</p>
+      <h1>Lic. Julián Girón</h1>
+      <p class="lead">Atiendo adultos en mi consultorio de Juncal 2037 y por videollamada. Trabajo con estrés, ansiedad, depresión, duelos, desmotivación y habilidades sociales. Por mi formación en selección de personal, también hago psicotécnicos, aptos psicológicos y orientación vocacional.</p>
+      <div class="actions">
+        <a class="btn btn--solid" href="#primera-entrevista">Pedir primera entrevista</a>
+        <a class="btn btn--line" href="https://wa.me/5491131818868?text=Hola%20Juli%C3%A1n%2C%20quisiera%20hacerte%20una%20consulta" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+      </div>
+      <p class="rating"><span class="stars" aria-hidden="true">★★★★★</span> <b>5,0</b> en Google · 17 opiniones</p>
+    </div>
+    <figure class="hero__media">
+      <!-- A CONFIRMAR: foto de ambiente ilustrativa (Unsplash). Reemplazar por una foto real del consultorio o del licenciado. -->
+      <img src="assets/img/consultorio-dos-sillones-luz-natural.webp" alt="Dos sillones enfrentados con luz natural, un espacio de consulta tranquilo" width="1600" height="1073" fetchpriority="high">
+      <img class="hero__badge" src="assets/img/logo-julian-giron-cerebro-psi-blanco.png" alt="" width="84" height="84">
+    </figure>
+  </div>
+</section>
+
+<section class="resumen" aria-labelledby="res-h">
   <div class="wrap">
-    <p class="eyebrow">Juncal 2037, Recoleta · y online</p>
-    <h1>Un espacio para hablar de lo que te pasa, <em>y salir con herramientas</em></h1>
-    <p class="lead">Soy Julián Girón, psicólogo recibido en la UADE. Atiendo adultos en mi consultorio de Recoleta y por videollamada. También hago psicotécnicos, aptos psicológicos y orientación vocacional.</p>
-    <div class="actions">
-      <a class="btn" href="https://wa.me/5491131818868?text=Hola%20Juli%C3%A1n%2C%20quisiera%20consultar%20por%20un%20turno" target="_blank" rel="noopener">Escribir por WhatsApp</a>
-      <a class="btn btn--line" href="#como">Cómo es la primera consulta</a>
+    <div class="resumen__card">
+      <h2 id="res-h" class="resumen__title">En resumen</h2>
+      <ul class="resumen__list">
+        <li><b>Dónde</b><span>Juncal 2037, Recoleta, o por videollamada</span></li>
+        <li><b>Para quién</b><span>Adultos (terapia) y evaluaciones laborales o vocacionales</span></li>
+        <li><b>Cuándo</b><span>Lunes a viernes, de 9 a 18 h</span></li>
+        <li><b>Cómo</b><span>Pedís la primera entrevista desde acá y se coordina por WhatsApp</span></li>
+      </ul>
     </div>
   </div>
 </section>
@@ -79,14 +115,22 @@
 <section class="doors" aria-label="Qué podés consultar">
   <div class="wrap doors__grid">
     <a class="door" href="#terapia">
-      <span class="door__tag">Terapia</span>
-      <span class="door__title">Para vos</span>
-      <span class="door__text">Estrés, ansiedad, depresión, duelos, desmotivación, habilidades sociales.</span>
+      <img src="assets/img/sillon-azul-espacio-de-escucha.webp" alt="" width="733" height="1100" loading="lazy">
+      <span class="door__body">
+        <span class="door__tag">Terapia</span>
+        <span class="door__title">Para vos</span>
+        <span class="door__text">Estrés, ansiedad, depresión, duelos, desmotivación, habilidades sociales.</span>
+        <span class="door__go">Ver más →</span>
+      </span>
     </a>
     <a class="door door--alt" href="#evaluaciones">
-      <span class="door__tag">Evaluaciones</span>
-      <span class="door__title">Para un trabajo o una decisión</span>
-      <span class="door__text">Psicotécnicos, aptos psicológicos y orientación vocacional.</span>
+      <img src="assets/img/sillon-junto-a-la-ventana-con-planta.webp" alt="" width="733" height="1100" loading="lazy">
+      <span class="door__body">
+        <span class="door__tag">Evaluaciones</span>
+        <span class="door__title">Para un trabajo o una decisión</span>
+        <span class="door__text">Psicotécnicos, aptos psicológicos y orientación vocacional.</span>
+        <span class="door__go">Ver más →</span>
+      </span>
     </a>
   </div>
 </section>
@@ -94,41 +138,113 @@
 <section class="section" id="terapia" aria-labelledby="te-h">
   <div class="wrap split">
     <div>
+      <p class="eyebrow">Terapia</p>
       <h2 id="te-h">Terapia para adultos</h2>
       <p>Lo que más aparece en consulta:</p>
       <ul class="topics">
         <li>Estrés</li><li>Ansiedad</li><li>Depresión</li><li>Duelos</li><li>Desmotivación</li><li>Habilidades sociales</li>
       </ul>
-    </div>
-    <div>
-      <p class="quote">“Le explicás lo que te pasa, te escucha y te da su opinión, consejo o herramientas para enfrentar lo que pasa.”</p>
-      <p class="quote__by">Alejandra Sala, paciente</p>
       <p>La idea no es solo desahogarse: es entender tu historia y tu contexto, y llevarte algo concreto para la semana.</p>
       <!-- A CONFIRMAR: enfoque terapéutico (cognitivo, psicoanalítico, etc.), duración y frecuencia de las sesiones. -->
     </div>
+    <blockquote class="pull">
+      <p>“Le explicás lo que te pasa, te escucha y te da su opinión, consejo o herramientas para enfrentar lo que pasa.”</p>
+      <footer>Alejandra Sala, en Google</footer>
+    </blockquote>
   </div>
 </section>
 
 <section class="section section--soft" id="evaluaciones" aria-labelledby="ev-h">
   <div class="wrap">
-    <h2 id="ev-h">Evaluaciones</h2>
-    <p class="intro">El Lic. Girón tiene formación en selección de personal. Por eso también hace:</p>
+    <p class="eyebrow">Evaluaciones</p>
+    <h2 id="ev-h">Psicotécnicos, aptos y orientación vocacional</h2>
+    <p class="intro">Antes de dedicarse a la clínica, el Lic. Girón se formó en selección de personal. Por eso también hace:</p>
+    <!-- A CONFIRMAR: "antes de dedicarse a la clínica" es una suposición; la ficha solo dice que tiene formación en selección de personal. -->
     <div class="evals">
-      <article><h3>Psicotécnicos</h3><p>Para procesos de selección y ingresos laborales.</p></article>
-      <article><h3>Aptos psicológicos</h3><p>Cuando un trabajo, una licencia o un trámite lo piden.</p></article>
-      <article><h3>Orientación vocacional</h3><p>Para elegir qué estudiar o repensar un rumbo profesional.</p></article>
+      <article class="eval">
+        <span class="eval__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 4h6M10 2h4v4h-4zM6 6h12v15H6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 11h6M9 15h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+        <h3>Psicotécnicos</h3>
+        <p>Para procesos de selección y nuevos ingresos laborales.</p>
+      </article>
+      <article class="eval">
+        <span class="eval__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <h3>Aptos psicológicos</h3>
+        <p>Cuando un trabajo, una licencia o un trámite lo piden.</p>
+      </article>
+      <article class="eval">
+        <span class="eval__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 8.5l-2 5-5 2 2-5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+        <h3>Orientación vocacional</h3>
+        <p>Para elegir qué estudiar o repensar un rumbo profesional.</p>
+      </article>
     </div>
     <!-- A CONFIRMAR: qué tipos de apto hace (portación, licencias, laborales), tiempo de entrega del informe y precios. -->
   </div>
 </section>
 
+<section class="section planner" id="primera-entrevista" aria-labelledby="pl-h">
+  <div class="wrap planner__grid">
+    <div class="planner__intro">
+      <p class="eyebrow eyebrow--light">Turnos</p>
+      <h2 id="pl-h">Pedí tu primera entrevista</h2>
+      <p>Elegí qué necesitás, cómo y cuándo te queda mejor. Se arma el mensaje solo y lo mandás por WhatsApp. Julián te confirma el día y la hora.</p>
+      <ol class="planner__steps">
+        <li>Elegís el motivo y la modalidad</li>
+        <li>Marcás los días y la franja que te sirven</li>
+        <li>Mandás el mensaje armado</li>
+      </ol>
+    </div>
+    <form class="planner__card" id="planner" novalidate>
+      <fieldset>
+        <legend>1. ¿Qué necesitás?</legend>
+        <div class="chips">
+          <label><input type="radio" name="motivo" value="terapia" checked><span>Terapia</span></label>
+          <label><input type="radio" name="motivo" value="un psicotécnico"><span>Psicotécnico</span></label>
+          <label><input type="radio" name="motivo" value="un apto psicológico"><span>Apto psicológico</span></label>
+          <label><input type="radio" name="motivo" value="orientación vocacional"><span>Orientación vocacional</span></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>2. ¿Cómo?</legend>
+        <div class="chips">
+          <label><input type="radio" name="modo" value="en el consultorio de Juncal" checked><span>Consultorio (Juncal 2037)</span></label>
+          <label><input type="radio" name="modo" value="online"><span>Online</span></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>3. ¿Qué días te sirven?</legend>
+        <div class="chips chips--days">
+          <label><input type="checkbox" name="dia" value="lunes"><span>Lun</span></label>
+          <label><input type="checkbox" name="dia" value="martes"><span>Mar</span></label>
+          <label><input type="checkbox" name="dia" value="miércoles"><span>Mié</span></label>
+          <label><input type="checkbox" name="dia" value="jueves"><span>Jue</span></label>
+          <label><input type="checkbox" name="dia" value="viernes"><span>Vie</span></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>4. ¿En qué franja?</legend>
+        <div class="chips">
+          <label><input type="radio" name="franja" value="a la mañana (9 a 13)" checked><span>Mañana · 9 a 13</span></label>
+          <label><input type="radio" name="franja" value="a la tarde (13 a 18)"><span>Tarde · 13 a 18</span></label>
+          <label><input type="radio" name="franja" value="en cualquier horario"><span>Me da igual</span></label>
+        </div>
+      </fieldset>
+      <div class="planner__preview" aria-live="polite">
+        <span class="planner__label">Tu mensaje</span>
+        <p id="planner-msg"></p>
+      </div>
+      <a class="btn btn--solid btn--wide" id="planner-send" href="https://wa.me/5491131818868" target="_blank" rel="noopener">Enviar por WhatsApp</a>
+    </form>
+  </div>
+</section>
+
 <section class="section" id="como" aria-labelledby="co-h">
   <div class="wrap narrow">
+    <p class="eyebrow">Paso a paso</p>
     <h2 id="co-h">Cómo es la primera consulta</h2>
     <ol class="steps">
-      <li><b>Escribís por WhatsApp</b> y contás en pocas palabras qué te trae y si preferís presencial u online.</li>
-      <li><b>Coordinan día y hora</b>, de lunes a viernes entre las 9 y las 18.</li>
-      <li><b>Primera sesión</b>: hablás de lo que te pasa y se arma juntos un plan de trabajo.</li>
+      <li><b>Escribís por WhatsApp</b> (o desde el formulario de arriba) y contás en pocas palabras qué te trae.</li>
+      <li><b>Coordinan día y hora</b>, de lunes a viernes entre las 9 y las 18, en el consultorio o por videollamada.</li>
+      <li><b>Primera sesión:</b> hablás de lo que te pasa y se arma juntos un plan de trabajo.</li>
     </ol>
     <!-- A CONFIRMAR: pasos, si la primera entrevista tiene otro valor y obras sociales. -->
   </div>
@@ -136,8 +252,9 @@
 
 <section class="section section--soft" id="opiniones" aria-labelledby="op-h">
   <div class="wrap">
-    <h2 id="op-h">Opiniones</h2>
-    <p class="intro">5,0 sobre 5 en Google.</p>
+    <p class="eyebrow">Opiniones</p>
+    <h2 id="op-h">Lo que dicen los pacientes</h2>
+    <p class="intro"><span class="stars" aria-hidden="true">★★★★★</span> 5,0 sobre 5 en Google, con 17 opiniones.</p>
     <div class="quotes">
       <figure><blockquote>“Es cálido, te hace sentir en confianza, te da herramientas reales. Nos ayuda a entendernos a nosotros mismos, nuestra historia y nuestro contexto.”</blockquote><figcaption>Fátima López</figcaption></figure>
       <figure><blockquote>“Me siento escuchada y le da un seguimiento a las charlas.”</blockquote><figcaption>Virginia Cantini</figcaption></figure>
@@ -149,22 +266,25 @@
 
 <section class="section" id="preguntas" aria-labelledby="faq-h">
   <div class="wrap narrow">
+    <p class="eyebrow">Dudas</p>
     <h2 id="faq-h">Preguntas frecuentes</h2>
     <div class="faq">
-      <details><summary>¿Atiende online?</summary><p>Sí, hay atención virtual para adultos, además del consultorio en Juncal 2037.</p></details>
+      <details><summary>¿Atiende online?</summary><p>Sí, hay atención por videollamada para adultos, además del consultorio en Juncal 2037.</p></details>
+      <details><summary>¿Hace psicotécnicos y aptos psicológicos?</summary><p>Sí. Por su formación en selección de personal, hace psicotécnicos, aptos psicológicos y orientación vocacional.</p></details>
       <details><summary>¿Atiende chicos o adolescentes?</summary><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></details>
       <details><summary>¿Trabaja con obras sociales?</summary><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></details>
       <details><summary>¿Cuánto dura cada sesión?</summary><p>Lorem ipsum dolor sit amet.</p></details>
-      <details><summary>¿Cómo pido un turno?</summary><p>Por <a href="https://wa.me/5491131818868" target="_blank" rel="noopener">WhatsApp al 11 3181-8868</a>.</p></details>
+      <details><summary>¿Cómo pido la primera entrevista?</summary><p>Desde <a href="#primera-entrevista">el formulario de turnos</a> o directo por <a href="https://wa.me/5491131818868" target="_blank" rel="noopener">WhatsApp al 11 3181-8868</a>.</p></details>
     </div>
-    <p class="note">Si estás atravesando una crisis o pensás en hacerte daño, llamá gratis al 135 (Centro de Asistencia al Suicida, CABA y GBA) o acercate a la guardia más cercana.</p>
+    <p class="note">Si estás atravesando una crisis o pensás en hacerte daño, llamá gratis al <b>135</b> (Centro de Asistencia al Suicida, CABA y GBA) o acercate a la guardia más cercana.</p>
   </div>
 </section>
 
 <section class="section section--soft" id="contacto" aria-labelledby="ct-h">
-  <div class="wrap split">
+  <div class="wrap split split--map">
     <div>
-      <h2 id="ct-h">Contacto</h2>
+      <p class="eyebrow">Contacto</p>
+      <h2 id="ct-h">Dónde atiende</h2>
       <table class="table">
         <tbody>
           <tr><th scope="row">Consultorio</th><td>Juncal 2037, Recoleta</td></tr>
@@ -185,14 +305,17 @@
 
 <footer class="foot">
   <div class="wrap foot__in">
-    <p><strong>Lic. Julián Girón</strong> · Psicólogo · Juncal 2037, Recoleta · Atención online</p>
+    <div class="foot__brand">
+      <img src="assets/img/logo-julian-giron-cerebro-psi-blanco.png" alt="" width="40" height="40" loading="lazy">
+      <p><strong>Lic. Julián Girón</strong><br>Psicólogo · Juncal 2037, Recoleta · Atención online</p>
+    </div>
     <button class="share" id="share" type="button">Compartir esta página</button>
     <p class="demo-note">Propuesta de diseño de <a href="https://tranqueraweb.com.ar" target="_blank" rel="noopener">Tranquera Digital</a></p>
   </div>
 </footer>
 
-<a class="sticky-cta" href="https://wa.me/5491131818868?text=Hola%20Juli%C3%A1n%2C%20quisiera%20consultar%20por%20un%20turno" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+<a class="sticky-cta" href="#primera-entrevista">Pedir primera entrevista</a>
 
-<script src="script.js?v=1" defer></script>
+<script src="script.js?v=2" defer></script>
 </body>
 </html>
